@@ -31,7 +31,7 @@ const HeroSection = ({ heroSection }) => {
                     />
                 </div>
                 <motion.div className="right pb-5 w-[95%] mx-auto" initial={{ x: "10%", opacity: 0, scale: 0 }} animate={leftRightSectionIsInView ? { x: 0, opacity: 1, scale: 1, transition: { duration: 0.5, delay: 0.3 } } : {}}>
-                    <h1 className='left-heading mt-1 md:mt-5 py-3 font-sans sm:text-3xl md:text-4xl lg:text-4xl font-bold'>Welcome to the World of Exquisite Food Concepts of &nbsp; <span className="dark lato">Kaka Foods & Caterers</span>.</h1>
+                    <h1 className='left-heading robotoslab mt-1 md:mt-5 py-3 sm:text-3xl md:text-4xl lg:text-4xl font-bold'>Welcome to the World of Exquisite Food Concepts of  <span className="dark ">Kaka Foods & Caterers</span>.</h1>
                     <p className='roboto w-[96%] md:w-[100%] mx-auto pt-3 text-justify text-black'> Dive into a world of aromatic and vibrant spices that will transport your taste buds to distant lands. From the earthy warmth of Ceylon cinnamon to the fiery kick of Kashmiri chili, we offer a wide range of exotic spices sourced from the world's spice capitals. </p>
                 </motion.div>
             </div>

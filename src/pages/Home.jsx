@@ -45,7 +45,7 @@ const Home = () => {
       <div className="category-section w-full mx-auto my-9">
         <h1 ref={categorySection} className='text-5xl py-6 font-bold text-center'><span className="lato">Products</span></h1>
         <div className='border h-1 w-28 text-gray-800 mx-auto'></div>
-        <div className="categories flex flex-wrap w-[95%] mx-auto justify-between">
+        <div className="categories w-[95%] mx-auto justify-between">
           {categories.map((category, idx) => (
             <Card key={idx} category={category} image={category.image} />
           ))}
@@ -57,7 +57,7 @@ const Home = () => {
           {/* <div class="parallax"></div> */}
           <h1 className='text-5xl py-6 font-bold text-center'>Reviews</h1>
           {/* <div className='border h-2 w-28 text-gray-900 mx-auto'></div> */}
-          <p className=' text-black py-5'><span className='dark font-bold'>Kaka foods & caterers</span> is ideal for any indian dishes.it has good Taste and Aroma.Kaka foods & caterers cantain spices withen are used for anhancing taste.it is not only use for good Aroma, it has many healthy resons .kitchen king masala powder cantains all the major spices like- fenugreek, garlic, ginger, anistar, black cardamom, black gram, black paper, cardamom, cardamom seed, chilli, clove, cumin etc.all these spices have high Nutritional value and are source of many valuable Nutrients.it has good flaver.and packging is very attractive.</p>
+          <p className=' text-black py-5 font-semibold'><span className='dark font-bold'>Kaka foods & caterers</span> is ideal for any indian dishes.it has good Taste and Aroma.Kaka foods & caterers cantain spices withen are used for anhancing taste.it is not only use for good Aroma, it has many healthy resons .kitchen king masala powder cantains all the major spices like- fenugreek, garlic, ginger, anistar, black cardamom, black gram, black paper, cardamom, cardamom seed, chilli, clove, cumin etc.all these spices have high Nutritional value and are source of many valuable Nutrients.it has good flaver.and packging is very attractive.</p>
         </div>
       </div>
 

@@ -24,7 +24,7 @@ export default function Navbar({ reviewSection, topSection, heroSection, categor
     const navbarVariants = {
         sticky: {
             top: 0,
-            position: 'sticky',
+            position: 'fixed',
             // backgroundColor: 'rgba(245, 245, 245, 0.645)',
             backgroundColor: '#f1f6ff',
             opacity: 0.8,
@@ -43,6 +43,7 @@ export default function Navbar({ reviewSection, topSection, heroSection, categor
     const [isSticky, setIsSticky] = useState(false);
 
     useEffect(() => {
+        const navbar = document.getElementById("navbar");
         const handleScroll = () => {
             if (window.scrollY > 100) {
                 setIsSticky(true);
@@ -93,7 +94,7 @@ export default function Navbar({ reviewSection, topSection, heroSection, categor
                     <div className="logo mx-1">
                         <img src="logo1.png" className='h-20 w-28' fluid></img>
                     </div>
-                    <ul className={`nav-links ${showMobileMenu ? 'show-mobile-menu bg-gray-600 text-black' : 'disable'}`}>
+                    <ul className={`nav-links robotoslab ${showMobileMenu ? 'show-mobile-menu bg-gray-600 text-black' : 'disable'}`}>
                         <motion.li
                             variants={linkVariants}
                             initial='initial'

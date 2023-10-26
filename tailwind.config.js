@@ -18,9 +18,9 @@ export default {
       ],
       'sans': [
         '-apple-system',
-        'BlinkMacSystemFont',
         'San Francisco',
         'Helvetica Neue',
+        'BlinkMacSystemFont',
         'Lucida Grande',
         'Arial',
         'sans-serif',

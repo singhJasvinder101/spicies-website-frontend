@@ -4,7 +4,7 @@ const FooterComponent = () => {
     return (
         <footer>
             <div class="footer">
-                <div class="contain row w-[85%] mx-auto">
+                <div class="contain d-flex md:flex-row w-[85%] mx-auto">
                     <div class="col col-md-4">
                         <h2>Contact</h2>
                         <ul>
@@ -20,7 +20,7 @@ const FooterComponent = () => {
                     </div>
                     <div class="col col-md-4">
                         <div className="image">
-                            <img src="logo1.png" alt="" />
+                            <img className='md:ml-auto' src="logo1.png" alt="" />
                         </div>
                         <div class="icon">
                             
