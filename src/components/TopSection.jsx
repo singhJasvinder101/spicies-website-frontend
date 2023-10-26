@@ -14,7 +14,7 @@ const TopSection = ({ topSection }) => {
             <div className="top-right">
                 <motion.img
                     fluid
-                    src='sideImage.png'
+                    src='/images/sideImage.png'
                     className='mt-5'
                 />
             </div>
