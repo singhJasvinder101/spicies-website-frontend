@@ -45,7 +45,7 @@ const Home = () => {
       <div className="category-section w-full mx-auto my-9">
         <h1 ref={categorySection} className='text-5xl py-6 font-bold text-center'><span className="lato">Products</span></h1>
         <div className='border h-1 w-28 text-gray-800 mx-auto'></div>
-        <div className="categories w-[95%] mx-auto justify-between">
+        <div className="categories w-[95%] mx-auto flex flex-wrap justify-around">
           {categories.map((category, idx) => (
             <Card key={idx} category={category} image={category.image} />
           ))}

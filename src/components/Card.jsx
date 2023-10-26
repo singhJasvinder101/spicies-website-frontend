@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = ({ category }) => {
     return (
-        <div>
+        <div className=''>
             <div className="card mx-auto relative grid h-[23rem] w-[23rem] md:w-[21rem] lg:w-[24rem] my-5 flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
                 <div className="image-container relative overflow-hidden">
                     <img className="mx-auto card-image w-96" src={`${category.image}`} alt="" />
