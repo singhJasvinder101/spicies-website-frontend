@@ -12,8 +12,8 @@ const categories = [
   { name: 'DRY FRUITS', image: '32.jpg' },
   { name: 'FRESH FRUITS & VEGETABLES', image: '33.jpg' },
   { name: 'DEHYDRATED FRUITS & VEGETABLES', image: '34.jpg' },
+  { name: 'CORIANDER POWDER', image: '1.jpg' },
   { name: 'READY TO EAT PACKED SNACKS FOOD', image: '35.jpg' },
-  { name: 'DEHYDRATED GINGER POWDER', image: '8.jpg' },
 ]
 
 const Home = () => {
