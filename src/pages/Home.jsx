@@ -13,7 +13,7 @@ const categories = [
   { name: 'FRESH FRUITS & VEGETABLES', image: '33.jpg' },
   { name: 'DEHYDRATED FRUITS & VEGETABLES', image: '34.jpg' },
   { name: 'READY TO EAT PACKED SNACKS FOOD', image: '35.jpg' },
-  { name: 'READY TO EAT MAIN COURSE FOOD', image: '26.jpg' },
+  { name: 'DEHYDRATED GINGER POWDER', image: '8.jpg' },
 ]
 
 const Home = () => {
