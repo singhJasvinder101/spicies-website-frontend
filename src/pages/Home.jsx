@@ -5,10 +5,10 @@ import TopSection from '../components/TopSection'
 import Card from '../components/Card'
 
 const categories = [
-  { name: 'DEHYDRATED GARLIC POWDER', image: '8.jpg' },
+  { name: 'DEHYDRATED GARLIC POWDER', image: '13.jpg' },
   { name: 'CARROT POWDER', image: '18.png' },
   { name: 'ONION POWDER', image: '14.png' },
-  { name: 'READY TO EAT MAIN COURSE FOOD', image: '2.jpg' },
+  { name: 'READY TO EAT MAIN COURSE FOOD', image: '26.jpg' },
   { name: 'DRY FRUITS', image: '32.jpg' },
   { name: 'FRESH FRUITS & VEGETABLES', image: '33.jpg' },
   { name: 'DEHYDRATED FRUITS & VEGETABLES', image: '34.jpg' },
