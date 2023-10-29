@@ -81,8 +81,8 @@ export default function Navbar({ reviewSection, topSection, heroSection, categor
 
     return (
         <motion.div
-            initial={isSticky ? 'sticky' : 'normal'}
-            animate={isSticky ? 'sticky' : 'normal'}
+            // initial={isSticky ? 'sticky' : 'normal'}
+            // animate={isSticky ? 'sticky' : 'normal'}
             variants={navbarVariants}
             className={`App ${showMobileMenu ? 'mobile-menu-active' : ''}`}
         >
