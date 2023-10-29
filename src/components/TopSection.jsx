@@ -8,7 +8,7 @@ const TopSection = ({ topSection }) => {
                     Elevate Your Culinary Journey with Our <span className='dark'>Premium Spices</span>
                 </h1>
                 <p className='text-xl text-gray-800'>
-                    At [Your Spice Brand], we invite you to embark on a remarkable culinary adventure filled with the finest, hand-selected spices and seasonings.
+                    we invite you to embark on a remarkable culinary adventure filled with the finest, hand-selected spices and seasonings.
                 </p>
             </div>
             <div className="top-right">
